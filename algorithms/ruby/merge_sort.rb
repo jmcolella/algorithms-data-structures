@@ -1,5 +1,5 @@
-require 'pry'
-
+# method that recursively divides input array into smaller chunks
+# in order to sort with sort_and_merge method
 def merge_sort( arr )
   return arr if arr.length == 1
 
@@ -8,10 +8,11 @@ def merge_sort( arr )
   arr1 = merge_sort( arr[0...mid] )
   arr2 = merge_sort( arr[mid..-1] )
 
-  merge( arr1, arr2 )
+  sort_and_merge( arr1, arr2 )
 end
 
-def merge( arr1, arr2 )
+# method that sorts divided arrays and merges
+def sort_and_merge( arr1, arr2 )
 
   sorted_array = []
 
@@ -38,4 +39,10 @@ def merge( arr1, arr2 )
   return sorted_array
 end
 
+# Example usage. Run ruby merge_sort.rb in terminal to see output
+ex_arr = [2,6,1,8,5,13]
+puts 'Array before sort:'
+p ex_arr
+puts '-------------------'
+puts 'Array after sort:'
 p merge_sort( [2,6,1,8,5,13] )
