@@ -45,4 +45,4 @@ puts 'Array before sort:'
 p ex_arr
 puts '-------------------'
 puts 'Array after sort:'
-p merge_sort( [2,6,1,8,5,13] )
+p merge_sort( ex_arr )
