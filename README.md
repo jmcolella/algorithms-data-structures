@@ -6,4 +6,4 @@
 
 # Data Structures currently implemented
 
-1. Stack ( Ruby )
+1. Stack ( Ruby && JavaScript )
