@@ -9,11 +9,11 @@ def binary_search( arr, target, low, high )
       low = mid + 1
       high = arr.length - 1
 
-      binary_search( arr, target, low, high )
+      return binary_search( arr, target, low, high )
     elsif target < arr[mid]
       high = mid - 1
 
-      binary_search( arr, target, low, high )
+      return binary_search( arr, target, low, high )
     end
   else
     return false
