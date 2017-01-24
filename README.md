@@ -7,3 +7,4 @@
 # Data Structures currently implemented
 
 1. Stack ( Ruby && JavaScript )
+2. Queue ( Ruby ) 
