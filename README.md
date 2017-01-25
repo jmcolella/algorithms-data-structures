@@ -2,6 +2,7 @@
 
 1. Merge Sort ( Ruby )
 2. Binary Search ( Ruby && JavaScript )
+3. Quick Sort ( Ruby )
 
 
 # Data Structures currently implemented
