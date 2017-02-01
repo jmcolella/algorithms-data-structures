@@ -4,6 +4,7 @@
 2. Binary Search ( Ruby && JavaScript )
 3. Quick Sort ( Ruby && JavaScript )
 4. Bubble Sort ( Ruby )
+5. Insertion Sort ( Ruby )
 
 
 # Data Structures currently implemented
